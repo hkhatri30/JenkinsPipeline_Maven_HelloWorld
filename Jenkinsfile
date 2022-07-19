@@ -16,7 +16,7 @@ mvn compile'''
         stage ('Testing Code') {
             steps {
                 sh '''mvn test'''
-                echo 'Testing completed with Junit on maven'
+                echo 'Testing complete with Junit on maven'
 
             }
         }
