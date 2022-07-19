@@ -25,12 +25,5 @@ mvn compile'''
             sh 'mvn package'   
             }
         }
-        stage ('Publish Test results'){
-            steps {
-                
-    
-            junit 'target/surefire-reports/*.xml'
-            }
-        }
     }
 }
